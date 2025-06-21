@@ -3,40 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute to Thomas Alva Edison</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Three.js Technical Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <main id="main">
-        <h1 id="title">Thomas Alva Edison</h1>
-        <p>“Wizard of Menlo Park”</p>
-        <div id="img-div">
-            <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Edison_and_phonograph_edit1.jpg/1280px-Edison_and_phonograph_edit1.jpg" alt="Image of Thomas Alva Edison">
-            <figcaption id="img-caption">Thomas Alva Edison, one of the greatest inventors of all time.</figcaption>
-        </div>
-        <section id="tribute-info">
-            <h2>About Thomas Alva Edison</h2>
-            <p>
-                Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman who has been described as America's greatest inventor. He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures. These inventions, which include the phonograph, the motion picture camera, and the long-lasting, practical electric light bulb, have had a widespread impact on the modern industrialized world.
-            </p>
-            <h2>Timeline of Thomas Edison's Life</h2>
+    <nav id="navbar">
+        <header>Three.js Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Installation">Installation</a></li>
+            <li><a class="nav-link" href="#Usage">Usage</a></li>
+            <li><a class="nav-link" href="#API_Reference">API Reference</a></li>
+            <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+            <li><a class="nav-link" href="#Advanced_Topics">Advanced Topics</a></li>
+            <li><a class="nav-link" href="#Examples">Examples</a></li>
+            <li><a class="nav-link" href="#Troubleshooting">Troubleshooting</a></li>
+            <li><a class="nav-link" href="#Community">Community</a></li>
+            <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+        </ul>
+    </nav>    
+
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>const scene = new THREE.Scene();</code>
             <ul>
-                <li><strong>1847:</strong> Born in Milan, Ohio, USA.</li>
-                <li><strong>1869:</strong> Receives his first patent for the electric vote recorder.</li>
-                <li><strong>1877:</strong> Invents the phonograph.</li>
-                <li><strong>1879:</strong> Develops a practical electric light bulb.</li>
-                <li><strong>1880:</strong> Establishes Edison Illuminating Company.</li>
-                <li><strong>1887:</strong> Opens the first industrial research lab in Menlo Park, New Jersey.</li>
-                <li><strong>1891:</strong> Patents the Kinetoscope, an early motion picture device.</li>
-                <li><strong>1912:</strong> Introduces the Edison storage battery.</li>
-                <li><strong>1931:</strong> Passes away in West Orange, New Jersey, USA.</li>
+                <li>Overview of Three.js</li>
+                <li>Basic concepts</li>
+                <li>How it fits into 3D graphics</li>
             </ul>
-            <h2>Legacy</h2>
-            <p>
-                Edison was a prolific inventor, holding 1,093 US patents in his name, as well as many patents in the United Kingdom, France, and Germany. His work and inventions greatly influenced modern life, leading to major innovations in electric power, mass communication, and other fields.
-            </p>
         </section>
-        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Thomas_Edison" target="_blank">Learn more about Thomas Edison</a>
+
+        <section id="Installation" class="main-section">
+            <header>Installation</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>npm install three</code>
+            <p>Follow these steps to install Three.js:</p>
+            <ul>
+                <li>Install via npm or include it via CDN</li>
+                <li>Set up your project structure</li>
+                <li>Include Three.js in your project</li>
+            </ul>
+        </section>
+
+        <section id="Usage" class="main-section">
+            <header>Usage</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>const renderer = new THREE.WebGLRenderer();</code>
+            <ul>
+                <li>Basic setup</li>
+                <li>Creating a scene</li>
+                <li>Adding objects</li>
+            </ul>
+        </section>
+
+        <section id="API_Reference" class="main-section">
+            <header>API Reference</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>class THREE.Mesh {}</code>
+            <ul>
+                <li>Class definitions</li>
+                <li>Method descriptions</li>
+                <li>Property details</li>
+            </ul>
+        </section>
+
+        <section id="Getting_Started" class="main-section">
+            <header>Getting Started</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);</code>
+            <ul>
+                <li>Initial setup</li>
+                <li>Creating your first scene</li>
+                <li>Basic camera setup</li>
+            </ul>
+        </section>
+
+        <section id="Advanced_Topics" class="main-section">
+            <header>Advanced Topics</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>const geometry = new THREE.BoxGeometry();</code>
+            <ul>
+                <li>Shaders and materials</li>
+                <li>Advanced rendering techniques</li>
+                <li>Performance optimization</li>
+            </ul>
+        </section>
+
+        <section id="Examples" class="main-section">
+            <header>Examples</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>const cube = new THREE.Mesh(geometry, material);</code>
+            <ul>
+                <li>Simple examples</li>
+                <li>Complex scenes</li>
+                <li>Common patterns</li>
+            </ul>
+        </section>
+
+        <section id="Troubleshooting" class="main-section">
+            <header>Troubleshooting</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>console.error("An error occurred");</code>
+            <ul>
+                <li>Common issues</li>
+                <li>Debugging tips</li>
+                <li>FAQs</li>
+            </ul>
+        </section>
+
+        <section id="Community" class="main-section">
+            <header>Community</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>join the community on GitHub</code>
+            <ul>
+                <li>Forums and discussion boards</li>
+                <li>Contribution guidelines</li>
+                <li>Events and meetups</li>
+            </ul>
+        </section>
+
+        <section id="Conclusion" class="main-section">
+            <header>Conclusion</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse qui ex, consequuntur facilis cum sint vitae, doloremque perferendis velit quos corporis doloribus, provident facere est magnam ullam eaque voluptatibus?</p>
+            <code>console.log("Three.js is awesome!");</code>
+            <ul>
+                <li>Summary of key points</li>
+                <li>Further resources</li>
+                <li>Contact information</li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
